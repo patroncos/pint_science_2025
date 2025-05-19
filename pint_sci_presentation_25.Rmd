@@ -1,0 +1,805 @@
+---
+title: "What makes a good school? <br> Education statistics and <br> the problem with rankings"
+subtitle: "Pint of Science Festival 2025"
+author: 'Dr Patricio Troncoso <br> Moray House School of Education and Sport <br> University of Edinburgh <br> <a href="https://x.com/p_tronc"> <i class="fab fa-twitter"></i> @p_tronc</a><br> <a href="mailto:patricio.troncoso@ed.ac.uk"> patricio.troncoso@ed.ac.uk</a><br>'
+date: "19/05/2025"
+output:
+  xaringan::moon_reader:
+    fig_caption: yes
+    #css: my-theme.css
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: left, middle
+
+```{css, echo = FALSE}
+.remark-slide-content {
+  font-size: 20px;
+  padding: 20px 60px 20px 60px;
+}
+
+.tinyf .remark-slide-content {
+  font-size: 65%;
+}
+
+.remark-code, .remark-inline-code {
+  background: #f0f0f0;
+}
+.remark-code {
+  font-size: 20px;
+}
+.huge .remark-code { /*Change made here*/
+  font-size: 150% !important;
+}
+.tiny .remark-code { /*Change made here*/
+  font-size: 65% !important;
+}
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# What makes a good school?
+
+---
+# What makes a good school?
+
+--
+
+```{r, out.width = '80%', echo = FALSE, fig.align="center", fig.cap= "Strong leadership?"}
+
+knitr::include_graphics("strickland.jpg")
+
+```
+
+---
+# What makes a good school?
+
+--
+
+```{r, out.width = '80%', echo = FALSE, fig.align="center", fig.cap="Inspiring teachers?"}
+
+knitr::include_graphics("school_rock.jpg")
+
+```
+
+---
+# What makes a good school?
+
+--
+
+```{r, out.width = '100%', echo = FALSE, fig.align="center", fig.cap="Consistent discipline?"}
+
+knitr::include_graphics("snape.jpg")
+
+```
+
+---
+# What makes a good school?
+
+--
+
+```{r, out.width = '80%', echo = FALSE, fig.align="center", fig.cap="Good exam preparation?"}
+
+knitr::include_graphics("teach_to_test.jpg")
+
+```
+
+---
+# What makes a good school?
+
+--
+
+```{r, out.width = '35%', echo = FALSE, fig.align="center", fig.cap="Good exam results?"}
+
+knitr::include_graphics("hermione.jpg")
+
+```
+
+---
+# What makes a good school?
+
+--
+
+
+```{r, out.width = '80%', echo = FALSE, fig.align="center", fig.cap="Inspections to maintain standards?"}
+
+knitr::include_graphics("dolores.jpg")
+
+```
+
+---
+# What makes a good school?
+
+--
+
+```{r, out.width = '80%', echo = FALSE, fig.align="center", fig.cap="A focus on wellbeing?"}
+
+knitr::include_graphics("wellbeing_school.gif")
+
+```
+
+---
+## Outline
+
+--
+
+- School performance rankings
+
+--
+
+- The impact of socioeconomic factors 
+
+--
+
+- Conclusions and Q&A
+
+
+---
+class: left, middle
+
+# School Performance Rankings
+
+---
+
+# School Performance Rankings
+
+--
+
+Every year we see news headlines like these:
+
+--
+
+.pull-left[
+```{r, out.width = '80%', echo = FALSE, fig.align="center"}
+
+knitr::include_graphics("best_schools_edin.jpg")
+
+```
+]
+
+--
+
+.pull-right[
+```{r, out.width = '80%', echo = FALSE, fig.align="center"}
+
+knitr::include_graphics("best_schools_mcr.jpg")
+
+```
+]
+
+---
+
+# School Performance Rankings
+
+--
+
+- In Scotland, the most frequent metric for the rankings at the secondary school level is: Percentage of pupils achieving 5 or more **"Highers"** qualifications.
+
+--
+
+  - "Highers" is the main qualification to access University in Scotland.
+  
+  - For equivalence with England, "Highers" sit in between GCSE and A-levels.
+  
+--
+
+- In England, the most frequent metric for ranking secondary schools is **GCSE results**
+
+--
+
+  - A-levels are also used but less frequently
+  
+
+---
+
+# School Performance Rankings
+
+--
+
+- The "model" of school performance as published by newspapers is:
+
+--
+
+
+```{r, out.width = '80%', echo = FALSE, fig.align="center"}
+
+knitr::include_graphics("school_performance0a.png")
+
+```
+
+---
+
+# School Performance Rankings
+
+
+
+- The "model" of school performance as published by newspapers is:
+
+
+
+
+```{r, out.width = '80%', echo = FALSE, fig.align="center"}
+
+knitr::include_graphics("school_performance0.png")
+
+```
+
+
+```{r, out.width = '25%', echo = FALSE, fig.align="center"}
+
+knitr::include_graphics("shrug.gif")
+
+```
+
+---
+
+# School Performance Rankings
+
+--
+
+- The first problem that comes to mind with that is that we don't know the starting point of each pupil:
+
+--
+
+```{r, out.width = '60%', echo = FALSE, fig.align="center"}
+
+knitr::include_graphics("unfair_race.jpg")
+
+```
+
+--
+
+- So, how can we make a fair comparison between schools?
+
+---
+
+# School Performance Rankings
+
+--
+
+- The most basic model of school performance is as follows:
+
+--
+
+
+```{r, out.width = '80%', echo = FALSE, fig.align="center"}
+
+knitr::include_graphics("school_performance1.png")
+
+```
+
+
+--
+
+- This is commonly known as a "value-added model" or **VA** model
+
+
+---
+
+# School Performance Rankings
+
+--
+
+- This is what is done by the DfE in England:
+
+--
+
+
+```{r, out.width = '80%', echo = FALSE, fig.align="center"}
+
+knitr::include_graphics("performance_table_dfe.jpg")
+
+```
+
+--
+
+- "**Progress 8**" is a value-added measure of performance for secondary schools.
+
+
+---
+
+# School Performance Rankings
+
+--
+
+- Progress 8 uses attainment at the end of compulsory secondary school ("GCSE") adjusted by attainment at the end of primary school ("Key Stage 2")
+
+--
+
+- But it isn't free of problems:
+
+--
+
+- It doesn't account for pupil characteristics
+
+--
+
+- This is extremely important, by way of analogy:
+
+--
+
+  - Would it be fair to compare hospitals in terms of patients' outcomes if we don't consider the characteristics of the patients?
+  
+
+---
+class: left, middle
+
+# The impact of socioeconomic factors
+
+---
+
+# The impact of socioeconomic factors
+
+--
+
+- A fairer model of school performance is as follows:
+
+--
+
+
+```{r, out.width = '80%', echo = FALSE, fig.align="center"}
+
+knitr::include_graphics("school_performance2.png")
+
+```
+
+
+--
+
+- This is commonly known as a "contextualised value-added model" or **CVA** model
+
+---
+
+# The impact of socioeconomic factors
+
+--
+
+A CVA model can account for a variety of factors, but here are the main ones:
+
+--
+
+- **Pupil intake characteristics** known to have an impact on attainment:
+
+--
+
+  - Socioeconomic status: Usually "free-school meals" eligibility
+  
+--
+
+  - Sex of the pupil
+
+--
+
+  - Ethnicity
+
+--
+
+  - Special Education needs and disability (SEND)
+
+--
+
+  - First language or "English as Additional Language"
+  
+--
+
+- Less used but arguably equally important, **school characteristics**, such as:
+
+--
+
+  - School location (local authority, urban/rural)
+  
+--
+  
+  - School size
+
+--
+
+The main idea being that we consider as many elements as possible that are **beyond the control of the school** to make fair comparisons.
+  
+
+---
+
+# The impact of socioeconomic factors
+
+--
+
+Controlling for socioeconomic factors seems like the best way forward...
+
+--
+
+```{r, out.width = '20%', echo = FALSE, fig.align="center"}
+
+knitr::include_graphics("that_could_work.jpg")
+
+```
+
+---
+
+# The impact of socioeconomic factors
+
+
+
+From 2006, CVA measures of school performance were published by the DfE in England, but...
+
+--
+
+```{r, out.width = '80%', echo = FALSE, fig.align="center", fig.cap = "Source: DfE (2010)"}
+
+knitr::include_graphics("cva_scrapped1.jpg")
+
+```
+
+--
+
+So in 2011 CVA was scrapped.
+
+
+```{r, out.width = '25%', echo = FALSE, fig.align="center"}
+
+knitr::include_graphics("disappointed.gif")
+
+```
+
+
+---
+
+# The impact of socioeconomic factors
+
+
+
+Scrapped by the Secretary of State who wanted ALL schools to be above average
+
+```{r, out.width = '80%', echo = FALSE, fig.align="center", fig.cap = "Source: UK Parliament (2012)"}
+
+knitr::include_graphics("above_average_schools_gove.jpg")
+
+```
+
+<br>
+
+```{r, out.width = '50%', echo = FALSE, fig.align="center"}
+
+knitr::include_graphics("wait_what.gif")
+
+```
+---
+
+# The impact of socioeconomic factors
+
+--
+
+Of course the idea has not been abandoned by Educational researchers... How could we?
+
+- The three reasons to scrap CVA have already been debunked by Leckie and Goldstein (2017)
+
+
+```{r, out.width = '50%', echo = FALSE, fig.align="center"}
+
+knitr::include_graphics("leckie_goldstein_2017.jpg")
+
+```
+
+
+---
+
+# The impact of socioeconomic factors
+
+--
+
+### Reason Number 1 to scrap CVA:
+
+--
+
+.pull-left[
+
+```{r, out.width = '100%', echo = FALSE, fig.align="center"}
+
+knitr::include_graphics("hard_to_understand.jpg")
+
+```
+
+]
+
+--
+
+.pull-right[
+
+<br>
+
+Problem of communicating the results: Never was a requirement to understand all "the ins and outs"
+
+]
+
+---
+
+# The impact of socioeconomic factors
+
+
+### Reason Number 2 to scrap CVA:
+
+--
+
+.pull-left[
+
+```{r, out.width = '100%', echo = FALSE, fig.align="center"}
+
+knitr::include_graphics("less_strong_predictor.jpg")
+
+```
+
+]
+
+--
+
+.pull-right[
+
+<br>
+
+This is a reflection of schools having less of an effect than previously thought
+
+]  
+
+
+---
+
+# The impact of socioeconomic factors
+
+
+### Reason Number 3 to scrap CVA:
+
+--
+
+.pull-left[
+
+```{r, out.width = '100%', echo = FALSE, fig.align="center"}
+
+knitr::include_graphics("different_expectations.jpg")
+
+```
+
+]
+
+--
+
+.pull.right[
+
+<br>
+
+CVA actually rewarded schools for their efforts with historically disadvantaged pupil groups.
+
+]
+
+---
+
+# The impact of socioeconomic factors
+
+--
+
+### But does it even matter if we use one model or the other?
+
+--
+
+- This has been looked at by many researchers, and the overwhelming conclusion is that **it matters a lot**
+
+--
+
+- This is an example comparison between VA and CVA models in England:
+
+--
+
+.pull-left[
+
+```{r, out.width = '140%', echo = FALSE, fig.align="center", fig.cap="Leckie and Goldstein (2019)"}
+
+knitr::include_graphics("school_classif_leckie1.jpg")
+
+```
+]
+
+--
+
+.pull-right[
+
+- **Progress 8** only includes prior attainment (at the end of primary).
+
+- **Adjusted Progress 8** includes pupil age, sex, ethnicity, language, SEN, FSM and deprivation.
+
+]
+---
+
+# The impact of socioeconomic factors
+
+
+### But does it even matter if we use one model or the other?
+
+
+- This has been looked at by many researchers, and the overwhelming conclusion is that **it matters a lot**
+
+- This is an example comparison between VA and CVA models in England:
+
+
+.pull-left[
+
+```{r, out.width = '140%', echo = FALSE, fig.align="center", fig.cap="Leckie and Goldstein (2019)"}
+
+knitr::include_graphics("school_classif_leckie2.jpg")
+
+```
+]
+
+.pull-right[
+
+- **195** schools were "above average" according to Progress 8, but "average" when adjusting for pupil background.
+
+- **172** schools were "below average" according to Progress 8, but "average" when adjusting for pupil background.
+
+]
+
+---
+
+# The impact of socioeconomic factors
+
+--
+
+Here's an example from Chile comparing two different CVA models:
+
+--
+
+```{r, out.width = '50%', echo = FALSE, fig.align="center", fig.cap="Troncoso (2019)"}
+
+knitr::include_graphics("school_classif_troncoso.jpg")
+
+```
+
+--
+
+- The less complex model includes pupil background and some school characteristics
+
+--
+
+- The more complex model includes more school characteristics (like local authority and classroom differences)
+
+---
+
+# The impact of socioeconomic factors
+
+
+Here's an example from Chile comparing two different CVA models:
+
+
+
+```{r, out.width = '50%', echo = FALSE, fig.align="center", fig.cap="Troncoso (2019)"}
+
+knitr::include_graphics("school_classif_troncoso2.jpg")
+
+```
+
+--
+
+  - **106 schools** were "below average" in the less complex model and "average" in the more complex model
+
+--
+
+  - **162 schools** were "above average" in the less complex model and "average" in the more complex model
+
+---
+
+# The impact of socioeconomic factors
+
+--
+
+### Why does it matter?
+
+--
+
+In both examples, there is a "high-stakes" system whereby these numbers are taken into account when conducting school inspections.
+
+--
+
+- In Chile, consecutive classifications as "below average" could mean closure for schools.
+
+--
+
+- In England, consecutive "inadequate" evaluations could mean "forced academisation" for schools.
+
+--
+
+These are real-life consequences that can affect thousands of pupils.
+---
+
+# The impact of socioeconomic factors
+
+--
+
+### What about Scotland?
+
+--
+
+- There is no available **standardised** test in Scotland that can be used as a prior attainment measure.
+
+--
+
+- We can eventually look at grades at the National 5 level (equivalent to GCSE) and adjust for pupil background.
+
+--
+
+- It would be a "Contextualised Attainment" model, not a CVA model.
+
+--
+
+- Maybe in the future...
+
+---
+
+# Conclusions
+
+--
+
+- School performance is a complex process...
+
+--
+
+   - Complex phenomena require the use of reasonably complex methods to analyse them.
+   
+--
+
+- **Context matters**
+
+--
+
+  - Using unadjusted measures of attainment is unfair
+
+--
+
+
+- Choosing a school performance model is not a trivial choice
+
+--
+  
+  - The risk is to be unduly harsh or lenient with some schools
+  
+--
+
+- Ranking schools is a futile effort for policy
+
+--
+
+  - What matters is to look at the reasons why some schools may be performing below a national average.
+  
+--
+  
+  - And perhaps learn from the schools that **against all odds** are performing above the average.
+
+---
+
+# Conclusions
+
+--
+### So... what makes a good school?
+
+--
+
+Probably all the things mentioned at the beginning... and more
+
+--
+
+But **no single headline measure is enough**
+
+---
+class: center, middle
+
+# Thank you!
+
+--
+
+```{r, out.width = '50%', echo = FALSE, fig.align="center"}
+
+knitr::include_graphics("boromir_cheers.gif")
+
+```
